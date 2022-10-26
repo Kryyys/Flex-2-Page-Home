@@ -1,0 +1,99 @@
+body {
+    background-color: white;
+    width: 700px;
+}
+
+* {
+    border: 2px solid rgb(146, 140, 140);
+}
+
+#bloc_page {
+    background-color: rgb(160, 240, 160);
+    padding : 15px;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: rgb(199, 189, 189);
+    height: auto;
+    padding: 15px;
+}
+
+#titre_principal {
+    background-color: grey;
+    height: 150px;
+    width: 150px;
+}
+
+nav {
+    background-color: rgb(216, 216, 216);
+    height: 60px;
+    width: 350px;
+}
+
+/* BANNIERE */
+
+#banniere_image {
+    background-color: rgb(84, 128, 250);
+    height: 125px;
+    margin-top: 15px;
+}
+
+/* SECTION */
+
+section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: yellow;
+    height: auto;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+/* J'ai utilisé des % ici, pour test */
+article {
+    background-color: rgb(231, 149, 71);
+    height: 350px;
+    width: 65%;
+}
+
+aside {
+    background-color: rgb(73, 224, 73);
+    height: 280px;
+    width: 35%;
+    margin-left: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+    height: auto;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+#tweet {
+    background-color: aqua;
+    height: 60px;
+    width: 200px;
+}
+
+#mes_photos {
+    background-color: rgb(241, 175, 50);
+    height: 60px;
+    width: 200px;
+}
+
+#mes_amis {
+    background-color: grey;
+    height: 60px;
+    width: 200px;
+}
